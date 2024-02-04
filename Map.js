@@ -5,3 +5,6 @@ const multiplyThree = nums.map((nums,i,arr)=>{
     return nums*3+i;
 })
 console.log(multiplyThree);
+
+//map return each and every value and modifys it according to condition of callback but
+// filters only return those value  which  satisfy the condition of callback not each and every value
