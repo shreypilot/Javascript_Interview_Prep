@@ -3,7 +3,7 @@
 const nums = [1,2,3,4];
 const sum = nums.reduce((acc,curr,i,nums)=>{
     return acc + curr;
-},0)
+},0)//0 is initial value it take callback and initial value 
 console.log(sum);
 
 //accumulator->result of previous computation
