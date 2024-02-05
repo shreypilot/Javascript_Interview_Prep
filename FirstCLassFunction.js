@@ -8,7 +8,7 @@ function square (num){
 }
 
 function displaySquare (fn){
-    console.log("Square is "+fn(5));
+    console.log(" Square is "+fn(5));
 }
 
 displaySquare(square);
